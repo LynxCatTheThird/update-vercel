@@ -362,6 +362,14 @@ header .header__right .dropdown-menus .dropdown-menu {
     
     <script src="/update/js/main.js"></script>
     
+    <script>
+        let mdate = "9-18, 12-13";
+        let ndate = new Date();
+        if (mdate == (ndate.getMonth()+1) + "-" + (ndate.getDate())) {
+            addClass("html", "memorial");
+        }
+    </script>
+    
 <meta name="generator" content="Hexo 6.2.0"></head>
 
     <body>
@@ -487,10 +495,29 @@ query('.lazyload-img').forEach(function (item) {
 <footer class="text-center">
     
     
+        
+        
+        
+            <!-- 不蒜子统计PV -->
+            <span id="busuanzi_container_site_pv" style="display: none">
+                总访问量 
+                <span id="busuanzi_value_site_pv"></span>
+                 次
+              </span>
+          
+          
+            <!-- 不蒜子统计UV -->
+            <span id="busuanzi_container_site_uv" style="display: none">
+                总访客数 
+                <span id="busuanzi_value_site_uv"></span>
+                 人
+              </span>
+          
     
     
     
-    <p>&copy;  2020 - 2021&nbsp;&nbsp;LynxCatTheThird</p>
+    
+    <p>&copy;  2021 - 2022&nbsp;&nbsp;LynxCatTheThird</p>
     
     <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme by <a href="https://github.com/hifun-team/hexo-theme-miracle" target="_blank">Miracle</a></p>
     
